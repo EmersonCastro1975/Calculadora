@@ -7,13 +7,13 @@ int main (void)
   
   scanf("%f", &a);
   scanf("%f", &b);
-  scanf("%f", &c);
+  scanf("%s", &c);
   
   float r;
   
   if (c[0]== '+')
   {
-  	r = a *b;
+  	r = a + b;
   	printf("%f", r);
   }
   else if (c[0] == '-')
