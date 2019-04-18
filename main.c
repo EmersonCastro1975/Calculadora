@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main (void)
 {
   float a, b;
@@ -7,6 +8,26 @@ int main (void)
   scanf("%f", &a);
   scanf("%f", &b);
   scanf("%f", &c);
+  
+  float r;
+  
+  if (c[0]== '+')
+  {
+  	r = a *b;
+  	printf("%f", r);
+  }
+  else if (c[0] == '-')
+  {
+  
+  	r = a - b;
+  	printf("%f", r);
+  }  
+  	else
+  	{
+  		printf("Operacao invalida");
+  		
+	}
+  
   
   return 0;
 }
